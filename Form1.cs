@@ -17,5 +17,9 @@ namespace WinFormsApp11111
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.label1.Visible = false;
+        }
     }
 }
